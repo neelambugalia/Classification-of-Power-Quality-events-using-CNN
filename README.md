@@ -1,1 +1,5 @@
 # Classification-of-Power-Quality-events-using-CNN
+Power Quality issues like voltage sag, swell, frequency deviations may cause a huge damage to power system equipments as well as human being. So, detecting them at a right time is really important. For now we have some devices called "Relays". A relay is basically a device which detects the fault and then shuts the power system. For now, for each power quality issue we have a different relays and their machanism is also different, hence increasing the cost. So in this project, I have tried to classify the all the power quality issues using a CNN model. And this model can be used as a relay mechanism to detect the fault. So only one relay will be required for all the Power Quality events, hence cost will also reduce.
+The data for this project was taken from http://map.pqube.com/ . I have taken data with 230 V line-neutral voltage and 50 hz frequency.
+A lot of preprocessing methods were used on this data and finally pictures generated from markov transition field of all the three phases were taken as input to the CNN.
+An overview of this project is in major_project_final_ppt.
